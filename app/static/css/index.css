@@ -1,0 +1,429 @@
+body {
+  font-family: "BOWLER", sans-serif;
+  width: 1864px;
+  padding: 0;
+  margin: 0;
+}
+
+.Main {
+  width: auto;
+}
+
+.Header {
+  width: auto;
+  height: auto;
+}
+
+.ContainerHeaner {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px;
+  align-items: center;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  border-radius: 29px;
+  border: 1px solid #000;
+  background: #FF00A8;
+  color: #FFF;
+  width: 161px;
+  height: 50px;
+  flex-shrink: 0;
+  font-size: 50px;
+}
+
+.LogoText {
+  font-size: 30px;
+}
+
+.ListContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.obj {
+  font-size: 20px;
+}
+
+.RegLog {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+}
+
+.Register {
+  border-radius: 10px;
+  background: #FF00A8;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.Login {
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #FF00A8;
+  background: #FFF;
+  padding: 15px 50px;
+}
+
+.MainList {
+  width: auto;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  background-image: url(/images/FirstImage.jpg);
+  background-position: 0px -48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MainText {
+  color: #FFF;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.AboutWe {
+  display: flex;
+  width: auto;
+  padding: 35px 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AboutWeMain {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #FF00A8;
+  font-size: 60px;
+}
+
+.AboutTextImage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AboutText {
+  height: 100%;
+  width: 740px;
+  font-family: Bona Nova;
+  font-size: 40px;
+  white-space: normal;
+}
+
+.AboutImage {
+  width: auto;
+}
+
+.AboutImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.HacatonWhy {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(398.17% 108.52% at 0% 100%, #0085FF 0%, #5200FF 100%);
+  padding-top: 79px;
+  padding-bottom: 42px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.WhyContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WhyMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #FF00A8;
+  font-size: 50px;
+}
+
+.WhyImageText {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 210px;
+}
+
+.WhyText-list {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-size: 40px;
+  justify-content: center;
+}
+
+span {
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+p {
+  height: auto;
+  margin: 0px;
+}
+
+.FurureHacatons {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.FutureText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #FF00A8;
+  font-size: 50px;
+}
+
+.FutureList {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.FutureItem1 {
+  width: 576px;
+  height: 882px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #000;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.ItemImage {
+  background-image: url(/images/ImageFurure.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.ItemImage img {
+  width: auto;
+}
+
+.ItemText {
+  width: auto;
+  margin: 0 30px;
+  font-size: 25px;
+  font-family: Microsoft Sans Serif;
+}
+
+.ItemButton {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background: #FF00A8;
+  padding: 10px 0;
+  margin: 0 150px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.Foodes {
+  width: auto;
+  height: 346px;
+  padding: 0 60px;
+  background: linear-gradient(97deg, #FF00A8 -23.25%, #5200FF 44.69%, #2A94F4 100%);
+  display: flex;
+  align-items: center;
+}
+
+.FoodeMain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FoodeHacaton {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  height: auto;
+}
+
+.FoodeLogoText {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+.FoodeText {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.TextHac {
+  max-width: 600px;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.FoodeTegs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FoodeSocial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.TegFoode {
+  color: #FFF;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.Socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Soc {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px 0;
+}
+
+.SocIcon {
+  padding-right: 10px;
+}
+
+.MainSocal {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.MainPageFuture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.MainTextFuture {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 50px;
+  color: #FF00A8;
+}
+
+.MainListFuture {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  margin: 39px 55px;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+}
+
+.FutureOneList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ImgHacaton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.HacatonStr {
+  padding: 0px 101px;
+}
+
+.HacatonMainText {
+  color: black;
+  font-size: 45px;
+  font-family: Arial;
+  padding-top: 70px;
+  line-height: normal;
+  text-decoration-line: underline;
+  font-weight: 900;
+}
+
+.HacatonInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.HacatonInfo {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding-right: 320px;
+  color: #000;
+  font-family: Arial;
+  font-size: 45px;
+}
+
+.HacTreck {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.Treck {
+  color: #000;
+  font-family: Arial;
+  font-size: 45px;
+}
+
+.HacCond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}/*# sourceMappingURL=index.css.map */

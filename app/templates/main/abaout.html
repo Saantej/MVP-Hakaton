@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+        }
+        .friend-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .friend-card img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>О нас</h1>
+
+    <!-- Карточка друга №1 -->
+    <div class="friend-card">
+        <img src="/static/vendor/img/vadim.jpg" alt="">
+        <p>Вадим backend</p>
+    </div>
+
+    <!-- Карточка друга №2 -->
+    <div class="friend-card">
+        <img src="/static/vendor/img/sasha.jpg" alt="">
+        <p>Александра - дизайнер</p>
+    </div>
+
+    <div class="friend-card">
+        <img src="/static/vendor/img/vanya.jpg" alt="">
+        <p>Иван - дизайнер</p>
+    </div>
+
+    <div class="friend-card">
+        <img src="#" alt="">
+        <p>Денис - frontend</p>
+    </div>
+
+    <!-- ... Добавьте столько карточек, сколько вам нужно ... -->
+
+</body>
+</html>

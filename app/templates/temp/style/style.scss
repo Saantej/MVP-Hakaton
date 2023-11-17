@@ -1,0 +1,1216 @@
+body
+{
+    font-family: 'BOWLER', sans-serif;
+    width: 1864px;
+    padding: 0;
+    margin: 0;
+}
+.Main
+{
+    width: auto;
+}
+.Header
+{
+    width: auto;
+    height: auto;
+}
+.ContainerHeaner
+{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 20px;
+    align-items: center;
+}
+.LogoContainer
+{
+    display: flex;
+    align-items: center;
+}
+.Logo
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 29px;
+    border: 1px solid #000;
+    background: #FF00A8;
+    color: #FFF;
+    width: 161px;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 50px;
+}
+.LogoText
+{
+    font-size: 30px;
+}
+.ListContainer
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.obj
+{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+.obj:hover
+{
+    color: #FF00A8
+}
+.butGip
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.butGip:hover
+{
+    color: #FF00A8
+}
+.PinBut
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.PinBut:hover
+{
+    color: #000
+}
+.ButFoode
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.ButFoode:hover
+{
+    color: #FF00A8;
+}
+.RegLog
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+}
+.Register
+{
+    border-radius: 10px;
+    background: #FF00A8;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.Login
+{
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #FF00A8;
+    background: #FFF;
+    padding: 15px 50px;
+}
+.MainList
+{
+    width: auto;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    background-image: url(/images/FirstImage.jpg);
+    background-position: 0px -48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.MainText
+{
+    color: #FFF;
+    font-size: 40px;
+    margin: 30px;
+}
+.AboutWe
+{
+    display: flex;
+    width: auto;
+    padding: 35px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.AboutWeMain
+{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FF00A8;
+    font-size: 60px;
+}
+.AboutTextImage
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.AboutText
+{
+    height: 100%;
+    width: 740px;
+    font-family: Bona Nova;
+    font-size: 40px;
+    white-space: normal;
+}
+.AboutImage
+{
+    width: auto;
+}
+.AboutImage img
+{
+    width: 100%;
+    height: 100%;
+}
+.HacatonWhy
+{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(398.17% 108.52% at 0% 100%, #0085FF 0%, #5200FF 100%);
+    padding-top: 79px;
+    padding-bottom: 42px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.WhyContainer
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.WhyMain
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #FF00A8;
+    font-size: 50px;
+}
+.WhyImageText
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 210px;
+}
+.WhyText-list
+{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 40px;
+    justify-content: center;
+}
+span 
+{
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 40px;
+}
+p
+{
+    height: auto;
+    margin: 0px;
+}
+.FurureHacatons
+{
+    width: 100%;
+    padding: 60px 0;
+}
+.FutureText
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #FF00A8;
+    font-size: 50px;
+}
+.FutureList
+{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.FutureItem1
+{
+    width: 576px;
+    height: 882px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #000;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.ItemImage
+{
+    background-image: url(/images/ImageFurure.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.ItemImage img
+{
+    width: auto;
+}
+.ItemText
+{
+    width: auto;
+    margin: 0 30px;
+    font-size: 25px;
+    font-family: Microsoft Sans Serif;
+}
+.ItemButton
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FF00A8;
+    padding: 10px 0;
+    margin: 0 150px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: #FFF;
+}
+.Foodes
+{
+    width: auto;
+    height: 346px;
+    padding: 0 60px;
+    background: linear-gradient(97deg, #FF00A8 -23.25%, #5200FF 44.69%, #2A94F4 100%);
+    display: flex;
+    align-items: center;
+}
+.FoodeMain
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FoodeHacaton
+{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: auto;
+}
+.FoodeLogoText
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.FoodeText
+{
+    color: #FFF;
+    font-size: 30px;
+}
+.TextHac
+{
+    max-width: 600px;
+    font-size: 40px;
+    color: #FFF;
+}
+.FoodeTegs
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.FoodeSocial
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.TegFoode
+{
+    color: #FFF;
+    font-size: 25px;
+    padding: 10px;
+}
+.Socials
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Soc
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    color: #FFF;
+    padding: 10px 0;
+}
+.SocIcon
+{
+    padding-right: 10px;
+}
+.MainSocal
+{
+    color: #FFF;
+    font-size: 30px;
+}
+.MainPageFuture
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.MainTextFuture
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    color: #FF00A8;
+}
+.MainListFuture
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    margin: 39px 55px;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px
+}
+.FutureOneList
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.ImgHacaton
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.HacatonStr
+{
+    padding-top: 15px;
+    padding: 0px 160px;
+    padding-bottom: 150px;
+}
+.HacatonMainText
+{
+    color: black;
+    font-size: 45px;
+    font-family: Arial;
+    padding-top: 70px;
+    line-height: normal;
+    text-decoration-line: underline;
+    font-weight: 900;
+}
+.HacatonInfo
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.HacatonInfo
+{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: #000;
+    font-family: Arial;
+    font-size: 45px;
+    gap: 150px;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+.HacInfoDicr
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.HacTreck
+{
+display: flex;
+flex-direction: column;
+padding-top: 80px;
+}
+.Treck
+{
+    color: #000;
+    font-family: Arial;
+    font-size: 45px;
+}
+.HacCond
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+}
+.HacMinInfo
+{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 900;
+    width: 524px;
+
+}
+.HacYears
+{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 900;
+    width: 524px;
+    padding-bottom: 300px;
+}
+.HacText
+{
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: 400;
+    width: auto;
+}
+.ItemButtonHac
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FF00A8;
+    padding: 10px 0;
+    margin: 0 710px;
+    margin-bottom: 135px;
+    font-size: 25px;
+    color: #FFF;
+}
+.MainMVP
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextProfil
+{
+    padding: 74px 0px;
+    background: linear-gradient(90deg, #0029FF -6.79%, #5200FF 44.79%, #FF00E5 108.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 400;
+}
+.ListRegister
+{
+    display: flex;
+    flex-direction: row;
+    gap: 57px;
+}
+.OneListReg
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+}
+.RegBlock
+{
+    width: 560px;
+}
+.NameText
+{
+    padding-bottom: 40px;
+    color: #696F79;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+
+.Line
+{
+    height: 2px;
+    background: #8692A6;
+}
+.ButtRegSave
+{
+    padding-top: 40px;
+    width: 100%;
+}
+.ButtonSave
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FF00A8;
+    padding: 10px 35px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #FFF;
+}
+.MainStrPart
+{
+    display: flex;
+    justify-content: center;
+    margin: 46px 0px;
+    gap: 46px;
+}
+.IconPartText
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.Ellips
+{
+    display: flex;
+    width: 290px;
+    height: 290px;
+    border-radius: 290px;
+    background: radial-gradient(91.56% 91.56% at 80.86% 24.31%, #5200FF 0%, #2A94F4 100%);
+    justify-content: center;
+    align-items: center;
+}
+.IconPartImg
+{
+    height: 85%;
+    width: 85%;
+    border-radius: 254px;
+    background-image: url(/images/IconPart.png);
+    background-size: cover;
+}
+.InfoPart
+{
+    display: flex;
+    gap: 82px;
+}
+.TextPart
+{
+    color: #000;
+    font-size: 40px;
+    font-weight: 400;
+}
+.PartButtons
+{
+    padding-left: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.PartBottRedact
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FF00A8;
+    padding: 10px 35px;
+    font-size: 25px;
+    color: #FFF;
+}
+.PartButtChat
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #5200FF;
+    padding: 10px 35px;
+    font-size: 25px;
+    color: #FFF;
+}
+.PartButtTeam
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #2A94F4;
+    padding: 10px 35px;
+    font-size: 25px;
+    color: #FFF;
+}
+.ParticedMainText
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    color: #FF00A8;
+    margin-bottom: 74px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.PartocedList
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.ParticedItem1
+{
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 275px;
+    border-radius: 10px;
+    background: linear-gradient(134deg, #FF00A8 0%, #5200FF 49.89%, #0085FF 114.2%);
+}
+.TextPlace
+{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+}
+.particedNameHac
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.ListTeamScr
+{
+    padding: 40px 20px;
+}
+.ListTeams
+{
+    padding: 35px 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.MaintextTeam
+{
+    padding: 20px 0px;
+    font-weight: 400;
+    color: #5200FF;
+    font-size: 40px;
+}
+.ListTextTeam
+{
+    display: flex;
+}
+.TextPartTeam
+{
+    width: 100%;
+    display: flex;
+    padding: 17px 20px;
+    color: var(--Grey_3, #534D59);
+    font-size: 20px;
+    font-weight: 600;
+}
+.TextNameTeam
+{
+    width: 100%;
+    display: flex;
+    padding: 17px 20px;
+    color: var(--Grey_3, #534D59);
+    font-size: 20px;
+    font-weight: 600;
+}
+.ItemListTeam
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    width: 100%;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 0px 1px #E1E1E1 inset;
+}
+.PartIcon
+{
+    width: 4.6%;
+    height: 50px;
+    border-radius: 50px;
+    background: var(--Main, #7839CD);
+}
+.PartNameEmail
+{
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.PartName
+{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+.PartEmail
+{
+    color: var(--Grey_5, #959595);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ButNamePart
+{
+    color: var(--Grey_4, #1B2128);
+    text-decoration: none;
+}
+.ButNamePart:hover
+{
+    color: #FF00A8;
+}
+.NameTeam
+{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    color: var(--Grey_3, #534D59);
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+}
+.Createhac
+{
+    padding: 0px 20px;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    border-radius: 10px;
+    background: #4361FF;
+    font-size: 25px;
+    align-items: center;
+}
+.CreateGiperSil
+{
+    padding: 0px 20px;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    border-radius: 10px;
+    background: #2A94F4;
+    font-size: 25px;
+    align-items: center;
+}
+.TextNameKurat
+{
+    width: auto;
+    display: flex;
+    padding: 17px 20px;
+    color: var(--Grey_3, #534D59);
+    font-size: 20px;
+    font-weight: 600;
+}
+.NameKurat
+{
+    width: 20%;
+    display: flex;
+    color: var(--Grey_3, #534D59);
+    font-size: 14px;
+    font-weight: 600;
+}
+.BackChat
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(134deg, #FF00A8 0%, #5200FF 49.89%, #0085FF 114.2%);
+}
+.MainTextChar
+{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.SearchChat
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+    padding: 18px 47px;
+    gap: 19px;
+}
+.SrarchText
+{
+    color: #1C274C;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 87.523%;
+
+}
+.IconBack
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    padding: 9px 5px;
+    margin-left: 38px;
+}
+.IconProfilText
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 38px;
+}
+.ProfilIcon
+{
+    display: flex;
+    align-items: center;
+}
+.ProfilName
+{
+    display: flex;
+    text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+}
+.ContAllChats
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ContChats
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+    margin-left: 110px;
+    margin-right: 215px;
+    padding: 9px 28px;
+    gap: 30px;
+}
+.IconChatsCont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgba(0, 133, 255, 0.50);
+    width: 153px;
+    height: 133px;
+}
+.IconChat
+{
+    width: auto;
+    height: auto;
+}
+.NameChat
+{
+    display: flex;
+    width: auto;
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+}
+.OpenChatText
+{
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+    margin-left: 110px;
+    margin-right: 215px;
+    margin-top: 8px;
+}
+.IconTextChat
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.MainTextChat
+{
+    height: max-content;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 27px;
+    justify-content: space-between;
+    border-radius: 20px 0px 0px 0px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+.ContDialog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.NumberPartCont
+{
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+.NumberPart
+{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.TextPartChat
+{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+}
+.ListPart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+.Particip
+{
+    display: flex;
+    gap: 14px;
+}
+.NamePart
+{
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+}
+.DialogChat
+{
+    width: auto;
+    display: flex;
+    padding: 20px;
+}
+.InputChat
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+.InputText
+{
+    color: #656565;
+    font-family: Inter;
+    font-size: 27px;
+}
+.InputIcon
+{
+    display: flex;
+}
+.NumOnl
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+}
+.fok 
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 99px;
+}
+.fot {
+    width: 290px;
+    height: 379px;
+}
+.TeamParts
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.ImageTextTeam
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px;
+}
+.ImageTeam
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 290px;
+    background: radial-gradient(91.56% 91.56% at 80.86% 24.31%, #5200FF 0%, #2A94F4 100%);
+}
+.InfoTeam
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px 70px;
+}
+.NameTeamRes
+{
+    color: #000;
+    text-align: center;
+    font-family: BOWLER;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.ImageTeamBack
+{
+    height: 90%;
+    width: 90%;
+    background-image: url(/images/ImageTeam.png);
+    background-size: cover;
+    border-radius: 254px;
+}
+.ContMetka
+{
+    padding: 0px 60px;
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+.Metka
+{
+    padding: 20px;
+    width: auto;
+    height: 20px;
+    display: flex;
+    background: var(--Grey_1, #F9FAFC);
+    box-shadow: 0px -1px 0px 0px #E1E1E1 inset;
+}
+.Filtr
+{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 8px;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+    border-radius: 8px;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #7839CD;
+    border-radius: 8px;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .NameInput
+  {
+    height: auto;
+    width: auto;
+    display: flex;
+  }
